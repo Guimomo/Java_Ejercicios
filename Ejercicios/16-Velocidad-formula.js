@@ -21,7 +21,7 @@ function formula() {
     console.log(`  > Tiempo = ${tiempo} segundos`);
 
 
-    console.log (`    ~ La velocidad del proyectil es igual: ${velocidad} metros/segundo`);
+    console.log (`    ~ La velocidad del proyectil es igual: ${velocidad.toFixed(2)} metros/segundo`);
 
 }
 
