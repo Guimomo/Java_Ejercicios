@@ -41,7 +41,7 @@ function comprobarContrasena() {
 
     // Comprobar si contiene al menos un dígito
     if (!/ \d /.test(contrasena)) {
-        
+
         console.log("La contraseña debe contener al menos un dígito.");
         return;
     }
@@ -54,3 +54,6 @@ function comprobarContrasena() {
 
 
 comprobarContrasena();
+
+
+//El método .test() en JavaScript es una función de los objetos RegExp (expresiones regulares) que se utiliza para comprobar si una cadena de texto (string) cumple con un patrón definido por una expresión regular. Este método devuelve un valor booleano (true o false), indicando si se encontró o no una coincidencia.
