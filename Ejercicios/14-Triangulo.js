@@ -21,7 +21,7 @@ function triangulo(base, altura) {
     console.log(`  > Base = ${base} m`);
     console.log(`  > Altura = ${altura} m`);
 
-    console.log (`    ~ El área del rectángulo es: ${area} m²`);
+    console.log (`    ~ El área del triangulo es: ${area} m²`);
 }
 
 
