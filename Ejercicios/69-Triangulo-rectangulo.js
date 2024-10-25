@@ -8,7 +8,7 @@ console.log(`
     ---------------------------`);
 
 function dibujarTriangulo() {
-    
+
     let numero = parseInt(prompt("Introduce un número entero:"));
     
     if (numero > 0) {
@@ -27,3 +27,6 @@ function dibujarTriangulo() {
         console.log("Por favor, introduce un número válido mayor que 0.");
     }
 }
+
+
+dibujarTriangulo();

@@ -20,7 +20,7 @@ function verificarPrimo() {
     for (let i = 2; i <= Math.sqrt(numero); i++) {
 
         if (numero % i === 0) {
-            
+
             esPrimo = false;
             break;
         }
@@ -28,3 +28,5 @@ function verificarPrimo() {
     
     console.log(esPrimo ? "El número es primo" : "El número no es primo");
 }
+
+verificarPrimo();

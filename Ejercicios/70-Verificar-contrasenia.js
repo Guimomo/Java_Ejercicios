@@ -8,7 +8,7 @@ console.log(`
     ---------------------------`);
 
 function verificarContrasena() {
-    
+
     const contrasenaCorrecta = "contraseña";
     let intento;
     
@@ -19,3 +19,4 @@ function verificarContrasena() {
     console.log("¡Contraseña correcta!");
 }
 
+verificarContrasena();
